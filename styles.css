@@ -100,3 +100,40 @@ li {
     height: 40px;
     font-size: 18px;
 }
+
+.info {
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.card-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 48px;
+}
+
+.card {
+    width: 150px;
+}
+
+.card-box {
+    border-radius: 25px;
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+}
+
+.card-text {
+    margin: 5px 0px;
+    display: block;
+    text-align: center;
+    color: rgb(106, 112, 125);
+}
