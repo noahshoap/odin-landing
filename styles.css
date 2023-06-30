@@ -170,11 +170,71 @@ li {
 .quote {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 700px;
 }
 
 .author-container {
     margin-top: 20px;
     display: flex;
     justify-content: flex-end;
+}
+
+.signup-container {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.signup {
+    display: flex;
+    border-radius: 15px;
+    background-color: #3882f6;
+    margin: 50px;
+    jusitfy-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    width: 1200px;
+    height: 100px;
+}
+
+.signup-body {
+    margin-left: 100px;
+}
+
+.signup-header {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.signup-button {
+    margin-left: auto;
+    margin-right: 100px;
+    border-radius: 25px;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    padding: 5px 35px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.signup-text {
+    font-size: 16px;
+    color: rgb(218, 223, 235);
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.footer-content {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 100;
 }
